@@ -1,13 +1,14 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Calculos {
 
     //Atributos
     private double num1, num2, res;
 
     //Constructor
+    public Calculos() {
+
+    }
     public Calculos(double a, double b){
         this.num1 = a;
         this.num2 = b;
